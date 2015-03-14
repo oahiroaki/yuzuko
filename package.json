@@ -1,0 +1,29 @@
+{
+  "name": "yuzuko",
+  "version": "0.0.1",
+  "main": "index.js",
+  "description": "DateTime for javascript",
+  "scripts": {
+    "test": "gulp test",
+    "browser": "gulp browser"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oahiroaki/yuzuko"
+  },
+  "author": "Hiroaki Ohtake",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oahiroaki/yuzuko/issues"
+  },
+  "homepage": "https://github.com/oahiroaki/yuzuko",
+  "devDependencies": {
+    "browserify": "^9.0.3",
+    "gulp": "^3.8.11",
+    "gulp-mocha": "^2.0.0",
+    "mocha": "^2.2.0"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
