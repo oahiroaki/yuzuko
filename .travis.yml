@@ -4,3 +4,9 @@ node_js:
 branches:
   only:
       - master
+notifications:
+  email: false
+  irc: "160.16.84.17#travis"
+    template:
+      - "%{repository} (%{commit}) : %{message} %{foo} "
+      - "Build details: %{build_url}"
