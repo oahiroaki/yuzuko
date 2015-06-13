@@ -4,8 +4,7 @@
   "main": "index.js",
   "description": "DateTime for javascript",
   "scripts": {
-    "test": "gulp test",
-    "browser": "gulp browser"
+    "test": "jasmine"
   },
   "repository": {
     "type": "git",
@@ -17,13 +16,10 @@
     "url": "https://github.com/oahiroaki/yuzuko/issues"
   },
   "homepage": "https://github.com/oahiroaki/yuzuko",
-  "devDependencies": {
-    "browserify": "^9.0.3",
-    "gulp": "^3.8.11",
-    "gulp-mocha": "^2.0.0",
-    "mocha": "^2.2.0"
-  },
   "directories": {
     "test": "test"
+  },
+  "devDependencies": {
+    "jasmine": "^2.3.1"
   }
 }
